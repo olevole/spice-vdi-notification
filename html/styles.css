@@ -1,0 +1,46 @@
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	width:95%;
+	margin:0 auto;
+	font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;
+	font-size:100%;
+}
+
+ol.mon {
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  align-content: flex-start;
+  list-style-type:none;
+  margin:0;
+  padding:30px;
+}
+
+
+/* Demo styles -------------------------------- */
+/* * { box-sizing: border-box; } */
+
+body {
+	text-align: center; 
+	color: white;
+}
+
+ol.mon li i {
+	font-size:50px;
+}
+ol.mon li {
+	width:5em;
+	height:5em;
+	text-align:center;
+}
+
+ol.mon li:before {
+	vertical-align: middle;
+}
+ol.mon li:hover { opacity: .8; }
+
+ol.mon i.s0 {color:silver;}
+ol.mon i.s1 {color:#85FF93;}
+ol.mon i.s2 {color:#FF6860;}
